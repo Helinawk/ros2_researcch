@@ -1,18 +1,23 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from rclpy.qos import QoSProfile, ReliabilityPolicy
 import time
 
 
 class SubscriberNode(Node):
     def __init__(self):
         super().__init__('subscriber_node')
-
+        
+        qos = QoSProfile(
+            depth=10,
+            reliability=ReliabilityPolicy.RELIABLE
+        )
         self.subscription = self.create_subscription(
             String,
             'latency_topic',
             self.callback,
-            10
+            qos
         )
     def callback(self, msg):
         # Разбираем строку: номер сообщения и время отправки
