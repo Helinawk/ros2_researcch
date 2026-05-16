@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_node = latency_test.publisher_node:main
+subscriber_node = latency_test.subscriber_node:main
+

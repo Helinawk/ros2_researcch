@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/latency_test/latency_test.egg-info
+writing ../build/latency_test/latency_test.egg-info/PKG-INFO
+writing dependency_links to ../build/latency_test/latency_test.egg-info/dependency_links.txt
+writing entry points to ../build/latency_test/latency_test.egg-info/entry_points.txt
+writing requirements to ../build/latency_test/latency_test.egg-info/requires.txt
+writing top-level names to ../build/latency_test/latency_test.egg-info/top_level.txt
+writing manifest file '../build/latency_test/latency_test.egg-info/SOURCES.txt'
+reading manifest file '../build/latency_test/latency_test.egg-info/SOURCES.txt'
+writing manifest file '../build/latency_test/latency_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/build/latency_test/build
+creating /root/ros2_ws/src/build/latency_test/build/lib
+creating /root/ros2_ws/src/build/latency_test/build/lib/latency_test
+copying latency_test/__init__.py -> /root/ros2_ws/src/build/latency_test/build/lib/latency_test
+running install
+running install_lib
+creating /root/ros2_ws/src/install/latency_test/lib/python3.10/site-packages/latency_test
+copying /root/ros2_ws/src/build/latency_test/build/lib/latency_test/__init__.py -> /root/ros2_ws/src/install/latency_test/lib/python3.10/site-packages/latency_test
+byte-compiling /root/ros2_ws/src/install/latency_test/lib/python3.10/site-packages/latency_test/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/src/install/latency_test/share/ament_index
+creating /root/ros2_ws/src/install/latency_test/share/ament_index/resource_index
+creating /root/ros2_ws/src/install/latency_test/share/ament_index/resource_index/packages
+copying resource/latency_test -> /root/ros2_ws/src/install/latency_test/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/install/latency_test/share/latency_test
+running install_egg_info
+Copying ../build/latency_test/latency_test.egg-info to /root/ros2_ws/src/install/latency_test/lib/python3.10/site-packages/latency_test-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_ws/src/build/latency_test/install.log'
