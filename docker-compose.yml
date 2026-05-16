@@ -1,0 +1,11 @@
+services:
+  ros2:
+    image: osrf/ros:humble-desktop
+    container_name: ros2_research
+    volumes:
+      - ./workspace:/root/ros2_ws
+    working_dir: /root/ros2_ws
+    stdin_open: true
+    tty: true
+    network_mode: host
+    command: bash

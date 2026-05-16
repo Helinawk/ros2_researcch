@@ -11,7 +11,7 @@ class SubscriberNode(Node):
         
         qos = QoSProfile(
             depth=10,
-            reliability=ReliabilityPolicy.RELIABLE
+            reliability=ReliabilityPolicy.BEST_EFFORT
         )
         self.subscription = self.create_subscription(
             String,

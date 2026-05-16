@@ -10,7 +10,7 @@ class PublisherNode(Node):
         super().__init__('publisher_node')
         qos = QoSProfile(
             depth=10,
-            reliability=ReliabilityPolicy.RELIABLE
+            reliability=ReliabilityPolicy.BEST_EFFORT
         )
 
         self.publisher = self.create_publisher(
