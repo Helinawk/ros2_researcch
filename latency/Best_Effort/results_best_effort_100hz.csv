@@ -1,0 +1,2 @@
+file,messages,avg_ms,min_ms,max_ms,jitter_ms,p95_ms,p99_ms,lost
+results_best_effort_100hz_stress_cpu4.csv,29999,0.12356404023467449,0.090347,3.65184,0.027632821990681525,0.15051589999999998,0.1627782,0

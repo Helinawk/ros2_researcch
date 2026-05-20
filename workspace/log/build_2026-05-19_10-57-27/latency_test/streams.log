@@ -1,0 +1,25 @@
+[0.433s] Invoking command in '/root/ros2_ws/src/latency_test': PYTHONPATH=/root/ros2_ws/build/latency_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/latency_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/latency_test build --build-base /root/ros2_ws/build/latency_test/build install --record /root/ros2_ws/build/latency_test/install.log --single-version-externally-managed install_data
+[0.613s] running egg_info
+[0.613s] writing ../../build/latency_test/latency_test.egg-info/PKG-INFO
+[0.613s] writing dependency_links to ../../build/latency_test/latency_test.egg-info/dependency_links.txt
+[0.613s] writing entry points to ../../build/latency_test/latency_test.egg-info/entry_points.txt
+[0.614s] writing requirements to ../../build/latency_test/latency_test.egg-info/requires.txt
+[0.614s] writing top-level names to ../../build/latency_test/latency_test.egg-info/top_level.txt
+[0.615s] reading manifest file '../../build/latency_test/latency_test.egg-info/SOURCES.txt'
+[0.616s] writing manifest file '../../build/latency_test/latency_test.egg-info/SOURCES.txt'
+[0.616s] running build
+[0.616s] running build_py
+[0.616s] copying latency_test/publisher_node.py -> /root/ros2_ws/build/latency_test/build/lib/latency_test
+[0.616s] running install
+[0.616s] running install_lib
+[0.617s] copying /root/ros2_ws/build/latency_test/build/lib/latency_test/publisher_node.py -> /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test
+[0.618s] byte-compiling /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test/publisher_node.py to publisher_node.cpython-310.pyc
+[0.618s] running install_data
+[0.618s] running install_egg_info
+[0.619s] removing '/root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.620s] Copying ../../build/latency_test/latency_test.egg-info to /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test-0.0.0-py3.10.egg-info
+[0.621s] running install_scripts
+[0.636s] Installing publisher_node script to /root/ros2_ws/install/latency_test/lib/latency_test
+[0.636s] Installing subscriber_node script to /root/ros2_ws/install/latency_test/lib/latency_test
+[0.636s] writing list of installed files to '/root/ros2_ws/build/latency_test/install.log'
+[0.649s] Invoked command in '/root/ros2_ws/src/latency_test' returned '0': PYTHONPATH=/root/ros2_ws/build/latency_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/latency_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/latency_test build --build-base /root/ros2_ws/build/latency_test/build install --record /root/ros2_ws/build/latency_test/install.log --single-version-externally-managed install_data

@@ -1,0 +1,41 @@
+Messages: 6245
+Average latency ms: 4.8001034438751
+Min latency ms: 0.277977
+Max latency ms: 5.073476
+Jitter std ms: 0.15448232004643075
+Lost messages: 382
+----------
+Messages: 6003
+Average latency ms: 4.797526942195569
+Min latency ms: 0.253942
+Max latency ms: 5.081976
+Jitter std ms: 0.15558989460839803
+Lost messages: 396
+---------
+Messages: 6016
+Average latency ms: 4.79281543999335
+Min latency ms: 0.228844
+Max latency ms: 5.096115
+Jitter std ms: 0.155328307286555
+Lost messages: 279
+------------
+Messages: 6121
+Average latency ms: 4.79950133360562
+Min latency ms: 0.212564
+Max latency ms: 5.103963
+Jitter std ms: 0.15502765151015074
+Lost messages: 386
+-----------
+Messages: 6120
+Average latency ms: 4.798258050980392
+Min latency ms: 0.246468
+Max latency ms: 5.08886
+Jitter std ms: 0.15578244640835628
+Lost messages: 362
+------------
+result
+Average latency ms: 4.797641042
+Min latency ms: 0.243959
+Max latency ms: 5.088878
+Jitter std ms: 0.155242124
+Lost messages: 361

@@ -1,0 +1,6 @@
+{
+  "package_name": "latency_interfaces",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/latency_interfaces:msg/LatencyMsg.msg"
+  ]
+}

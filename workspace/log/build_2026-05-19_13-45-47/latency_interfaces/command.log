@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/latency_interfaces': CMAKE_PREFIX_PATH=/root/ros2_ws/install/latency_test:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/latency_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/latency_interfaces
+Invoked command in '/root/ros2_ws/build/latency_interfaces' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/latency_test:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/latency_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/latency_interfaces
+Invoking command in '/root/ros2_ws/build/latency_interfaces': CMAKE_PREFIX_PATH=/root/ros2_ws/install/latency_test:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/latency_interfaces -- -j16 -l16
+Invoked command in '/root/ros2_ws/build/latency_interfaces' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/latency_test:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/latency_interfaces -- -j16 -l16
+Invoking command in '/root/ros2_ws/build/latency_interfaces': CMAKE_PREFIX_PATH=/root/ros2_ws/install/latency_test:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/latency_interfaces
+Invoked command in '/root/ros2_ws/build/latency_interfaces' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/latency_test:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/latency_interfaces

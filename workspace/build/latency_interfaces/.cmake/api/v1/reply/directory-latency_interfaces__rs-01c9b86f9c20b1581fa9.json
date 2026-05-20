@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "latency_interfaces__rs",
+		"source" : "/root/ros2_ws/build/latency_interfaces/latency_interfaces__rs"
+	}
+}

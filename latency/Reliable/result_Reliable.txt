@@ -1,0 +1,38 @@
+Тест №1
+root@PC:~/ros2_ws# python3 - << 'EOF'
+import pandas as pd
+
+df = pd.read_csv('/root/ros2_ws/latency_results.csv')
+
+print("Messages:", len(df))
+print("Average latency ms:", df['latency_ms'].mean())
+print("Min latency ms:", df['latency_ms'].min())
+print("Max latency ms:", df['latency_ms'].max())
+print("Jitter std ms:", df['latency_ms'].std())
+print("Lost messages:", df['message_id'].max() + 1 - len(df))
+EOF
+Messages: 6221
+Average latency ms: 0.1353483005947597
+Min latency ms: 0.102787
+Max latency ms: 4.748048
+Jitter std ms: 0.06311959137798737
+Lost messages: 0
+----------
+
+Тест №2 1000Hz
+Messages: 6668
+Average latency ms: 0.11160937252549491
+Min latency ms: 0.076087
+Max latency ms: 9.608456
+Jitter std ms: 0.35327633491010096
+Lost messages: 5
+----
+
+Тест №3 2000Hz
+Messages: 6174
+Average latency ms: 4.799235593132491
+Min latency ms: 0.232662
+Max latency ms: 5.091154
+Jitter std ms: 0.1559656744317623
+Lost messages: 459
+

@@ -1,0 +1,62 @@
+echo "message_id,sent_time_ns,receive_time_ns,latency_ms" > latency_results.csv
+python3 - << 'EOF'
+import pandas as pd
+
+df = pd.read_csv('/root/ros2_ws/latency_results.csv')
+
+print("Messages:", len(df))
+print("Avg:", df['latency_ms'].mean())
+print("Min:", df['latency_ms'].min())
+print("Max:", df['latency_ms'].max())
+print("Jitter std:", df['latency_ms'].std())
+print("P50:", df['latency_ms'].quantile(0.50))
+print("P90:", df['latency_ms'].quantile(0.90))
+print("P95:", df['latency_ms'].quantile(0.95))
+print("P99:", df['latency_ms'].quantile(0.99))
+print("Lost:", df['message_id'].max() + 1 - len(df))
+EOF
+Messages: 5511
+Avg: 4.807298676465252
+Min: 0.262114
+Max: 5.116832
+Jitter std: 0.15769840030037613
+P50: 4.811656
+P90: 5.004206
+P95: 5.029034
+P99: 5.0660179
+Lost: 870
+----
+Messages: 6047
+Average latency ms: 0.11511084620472962
+Min latency ms: 0.088481
+Max latency ms: 3.854676
+Jitter std ms: 0.05079662586324478
+Lost messages: 0
+----
+Messages: 6035
+Average latency ms: 0.12825414465617233
+Min latency ms: 0.090305
+Max latency ms: 3.410323
+Jitter std ms: 0.04776796175195754
+Lost messages: 0
+-----
+Messages: 6060
+Average latency ms: 0.12465610099009901
+Min latency ms: 0.089494
+Max latency ms: 3.435421
+Jitter std ms: 0.047971348507616994
+Lost messages: 0
+---
+Messages: 6065
+Average latency ms: 0.11823212118713934
+Min latency ms: 0.08724
+Max latency ms: 3.839602
+Jitter std ms: 0.05089815745556052
+Lost messages: 0
+----
+Result
+Average latency ms: 0.123255069
+Min latency ms: 0.0907036
+Max latency ms: 3.6100316
+Jitter std ms: 0.050408988
+Lost messages: 0
