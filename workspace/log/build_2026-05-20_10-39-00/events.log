@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (latency_interfaces) JobQueued: {'identifier': 'latency_interfaces', 'dependencies': OrderedDict()}
+[0.000473] (latency_test) JobQueued: {'identifier': 'latency_test', 'dependencies': OrderedDict([('latency_interfaces', '/root/ros2_ws/install/latency_interfaces')])}
+[0.000498] (latency_interfaces) JobStarted: {'identifier': 'latency_interfaces'}
+[0.008304] (latency_interfaces) JobProgress: {'identifier': 'latency_interfaces', 'progress': 'cmake'}
+[0.008854] (latency_interfaces) JobProgress: {'identifier': 'latency_interfaces', 'progress': 'build'}
+[0.009329] (latency_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/latency_interfaces', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/latency_interfaces', 'env': OrderedDict([('HOSTNAME', 'PC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/latency_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/latency_test:/root/ros2_ws/install/latency_interfaces:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/latency_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/latency_test/lib/python3.10/site-packages:/root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/latency_interfaces:/root/ros2_ws/install/latency_test:/opt/ros/humble')]), 'shell': False}
+[0.056918] (latency_interfaces) StdoutLine: {'line': b'[  3%] Built target latency_interfaces__cpp\n'}
+[0.057206] (latency_interfaces) StdoutLine: {'line': b'[ 12%] Built target latency_interfaces__rosidl_generator_c\n'}
+[0.057993] (latency_interfaces) StdoutLine: {'line': b'[ 15%] Built target latency_interfaces__rs\n'}
+[0.066838] (latency_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_latency_interfaces\n'}
+[0.076121] (latency_interfaces) StdoutLine: {'line': b'[ 25%] Built target latency_interfaces__rosidl_typesupport_cpp\n'}
+[0.076330] (latency_interfaces) StdoutLine: {'line': b'[ 34%] Built target latency_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.077027] (latency_interfaces) StdoutLine: {'line': b'[ 46%] Built target latency_interfaces__rosidl_typesupport_c\n'}
+[0.077155] (latency_interfaces) StdoutLine: {'line': b'[ 53%] Built target latency_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.077710] (latency_interfaces) StdoutLine: {'line': b'[ 62%] Built target latency_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.077931] (latency_interfaces) StdoutLine: {'line': b'[ 71%] Built target latency_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.096160] (latency_interfaces) StdoutLine: {'line': b'[ 71%] Built target latency_interfaces\n'}
+[0.099833] (-) TimerEvent: {}
+[0.114957] (latency_interfaces) StdoutLine: {'line': b'[ 75%] Built target latency_interfaces__py\n'}
+[0.135955] (latency_interfaces) StdoutLine: {'line': b'[ 81%] Built target latency_interfaces__rosidl_generator_py\n'}
+[0.155841] (latency_interfaces) StdoutLine: {'line': b'[ 87%] Built target latency_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.156895] (latency_interfaces) StdoutLine: {'line': b'[ 93%] Built target latency_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.157056] (latency_interfaces) StdoutLine: {'line': b'[100%] Built target latency_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.199906] (-) TimerEvent: {}
+[0.246254] (latency_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.246727] (latency_interfaces) StdoutLine: {'line': b'writing latency_interfaces.egg-info/PKG-INFO\n'}
+[0.246876] (latency_interfaces) StdoutLine: {'line': b'writing dependency_links to latency_interfaces.egg-info/dependency_links.txt\n'}
+[0.247002] (latency_interfaces) StdoutLine: {'line': b'writing top-level names to latency_interfaces.egg-info/top_level.txt\n'}
+[0.248576] (latency_interfaces) StdoutLine: {'line': b"reading manifest file 'latency_interfaces.egg-info/SOURCES.txt'\n"}
+[0.249025] (latency_interfaces) StdoutLine: {'line': b"writing manifest file 'latency_interfaces.egg-info/SOURCES.txt'\n"}
+[0.266280] (latency_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_latency_interfaces_egg\n'}
+[0.277895] (latency_interfaces) CommandEnded: {'returncode': 0}
+[0.278416] (latency_interfaces) JobProgress: {'identifier': 'latency_interfaces', 'progress': 'install'}
+[0.285695] (latency_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/latency_interfaces'], 'cwd': '/root/ros2_ws/build/latency_interfaces', 'env': OrderedDict([('HOSTNAME', 'PC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/latency_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/latency_test:/root/ros2_ws/install/latency_interfaces:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/latency_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/latency_test/lib/python3.10/site-packages:/root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/latency_interfaces:/root/ros2_ws/install/latency_test:/opt/ros/humble')]), 'shell': False}
+[0.293338] (latency_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.293470] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/ament_index/resource_index/rosidl_interfaces/latency_interfaces\n'}
+[0.293587] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces\n'}
+[0.293696] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg\n'}
+[0.293763] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail\n'}
+[0.293852] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__functions.h\n'}
+[0.293941] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__functions.c\n'}
+[0.294006] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__type_support.h\n'}
+[0.294114] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__struct.h\n'}
+[0.294181] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.294245] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/latency_msg.h\n'}
+[0.294307] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/library_path.sh\n'}
+[0.294392] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/library_path.dsv\n'}
+[0.294465] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_generator_c.so\n'}
+[0.294646] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces\n'}
+[0.294737] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg\n'}
+[0.294835] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail\n'}
+[0.294896] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.294977] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.295089] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.295300] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces\n'}
+[0.295384] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg\n'}
+[0.295466] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/latency_msg.hpp\n'}
+[0.295571] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.295637] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail\n'}
+[0.295719] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__type_support.hpp\n'}
+[0.295827] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__builder.hpp\n'}
+[0.295885] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__traits.hpp\n'}
+[0.295941] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__struct.hpp\n'}
+[0.295997] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces\n'}
+[0.296077] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg\n'}
+[0.296179] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail\n'}
+[0.296237] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/dds_fastrtps\n'}
+[0.296296] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.296353] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.296434] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.296553] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces\n'}
+[0.296639] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg\n'}
+[0.296720] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.296800] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail\n'}
+[0.296883] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__type_support.c\n'}
+[0.296965] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.297060] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.297364] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_typesupport_c.so\n'}
+[0.297549] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces\n'}
+[0.297637] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg\n'}
+[0.297722] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail\n'}
+[0.297807] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__type_support.cpp\n'}
+[0.297889] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/include/latency_interfaces/latency_interfaces/msg/detail/latency_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.298020] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.298349] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.298551] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/pythonpath.sh\n'}
+[0.298638] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/pythonpath.dsv\n'}
+[0.298703] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.298774] (latency_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.298957] (latency_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.299152] (latency_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.299340] (latency_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.299557] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces\n'}
+[0.299636] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/msg\n'}
+[0.299705] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/msg/__init__.py\n'}
+[0.299786] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/msg/_latency_msg.py\n'}
+[0.299857] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/msg/_latency_msg_s.c\n'}
+[0.299905] (-) TimerEvent: {}
+[0.299986] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/__init__.py\n'}
+[0.300074] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/latency_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.300126] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/latency_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.300174] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/latency_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.300257] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/liblatency_interfaces__rosidl_generator_py.so\n'}
+[0.300306] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/_latency_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.300349] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/_latency_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.300390] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/_latency_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.326914] (latency_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces'...\n"}
+[0.327018] (latency_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/msg'...\n"}
+[0.329989] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/latency_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.330395] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/latency_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.330821] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages/latency_interfaces/latency_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.331236] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/lib/liblatency_interfaces__rosidl_generator_py.so\n'}
+[0.331512] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/ament_index/resource_index/rust_packages/latency_interfaces\n'}
+[0.331630] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust\n'}
+[0.331716] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust/src\n'}
+[0.331782] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust/src/msg\n'}
+[0.331840] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust/src/msg/rmw.rs\n'}
+[0.331919] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust/src/lib.rs\n'}
+[0.331974] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust/src/msg.rs\n'}
+[0.332041] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust/build.rs\n'}
+[0.332112] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/rust/Cargo.toml\n'}
+[0.332183] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/msg/LatencyMsg.idl\n'}
+[0.332234] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/msg/LatencyMsg.msg\n'}
+[0.332308] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/ament_index/resource_index/package_run_dependencies/latency_interfaces\n'}
+[0.332360] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/ament_index/resource_index/parent_prefix_path/latency_interfaces\n'}
+[0.332434] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/ament_prefix_path.sh\n'}
+[0.332486] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.332570] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/path.sh\n'}
+[0.332630] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/environment/path.dsv\n'}
+[0.332704] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/local_setup.bash\n'}
+[0.332755] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/local_setup.sh\n'}
+[0.332826] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/local_setup.zsh\n'}
+[0.332877] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/local_setup.dsv\n'}
+[0.332941] (latency_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/package.dsv\n'}
+[0.333110] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/ament_index/resource_index/packages/latency_interfaces\n'}
+[0.333243] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.333314] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.333446] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.333523] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.333647] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.333763] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.333832] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.333953] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.334018] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.334133] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.334200] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.334320] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.334386] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.334497] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.334571] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.334685] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.334745] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/export_latency_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.334819] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.334894] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.334940] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.335012] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.335063] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.335135] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.335187] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.335260] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfacesConfig.cmake\n'}
+[0.335312] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/cmake/latency_interfacesConfig-version.cmake\n'}
+[0.335355] (latency_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/latency_interfaces/share/latency_interfaces/package.xml\n'}
+[0.337120] (latency_interfaces) CommandEnded: {'returncode': 0}
+[0.354794] (latency_interfaces) JobEnded: {'identifier': 'latency_interfaces', 'rc': 0}
+[0.355657] (latency_test) JobStarted: {'identifier': 'latency_test'}
+[0.399985] (-) TimerEvent: {}
+[0.500139] (-) TimerEvent: {}
+[0.600306] (-) TimerEvent: {}
+[0.700470] (-) TimerEvent: {}
+[0.789790] (latency_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/latency_test', 'build', '--build-base', '/root/ros2_ws/build/latency_test/build', 'install', '--record', '/root/ros2_ws/build/latency_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/latency_test', 'env': {'HOSTNAME': 'PC', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/latency_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/latency_test:/root/ros2_ws/install/latency_interfaces:/opt/ros/humble', 'PWD': '/root/ros2_ws/build/latency_test', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/latency_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/latency_test/lib/python3.10/site-packages:/root/ros2_ws/install/latency_test/lib/python3.10/site-packages:/root/ros2_ws/install/latency_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/latency_interfaces'}, 'shell': False}
+[0.800547] (-) TimerEvent: {}
+[0.900702] (-) TimerEvent: {}
+[0.975279] (latency_test) StdoutLine: {'line': b'running egg_info\n'}
+[0.975762] (latency_test) StdoutLine: {'line': b'writing ../../build/latency_test/latency_test.egg-info/PKG-INFO\n'}
+[0.975927] (latency_test) StdoutLine: {'line': b'writing dependency_links to ../../build/latency_test/latency_test.egg-info/dependency_links.txt\n'}
+[0.976066] (latency_test) StdoutLine: {'line': b'writing entry points to ../../build/latency_test/latency_test.egg-info/entry_points.txt\n'}
+[0.976185] (latency_test) StdoutLine: {'line': b'writing requirements to ../../build/latency_test/latency_test.egg-info/requires.txt\n'}
+[0.976289] (latency_test) StdoutLine: {'line': b'writing top-level names to ../../build/latency_test/latency_test.egg-info/top_level.txt\n'}
+[0.977599] (latency_test) StdoutLine: {'line': b"reading manifest file '../../build/latency_test/latency_test.egg-info/SOURCES.txt'\n"}
+[0.978258] (latency_test) StdoutLine: {'line': b"writing manifest file '../../build/latency_test/latency_test.egg-info/SOURCES.txt'\n"}
+[0.978360] (latency_test) StdoutLine: {'line': b'running build\n'}
+[0.978423] (latency_test) StdoutLine: {'line': b'running build_py\n'}
+[0.978548] (latency_test) StdoutLine: {'line': b'copying latency_test/publisher_node.py -> /root/ros2_ws/build/latency_test/build/lib/latency_test\n'}
+[0.978727] (latency_test) StdoutLine: {'line': b'copying latency_test/subscriber_node.py -> /root/ros2_ws/build/latency_test/build/lib/latency_test\n'}
+[0.978941] (latency_test) StdoutLine: {'line': b'running install\n'}
+[0.979164] (latency_test) StdoutLine: {'line': b'running install_lib\n'}
+[0.979735] (latency_test) StdoutLine: {'line': b'copying /root/ros2_ws/build/latency_test/build/lib/latency_test/publisher_node.py -> /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test\n'}
+[0.979907] (latency_test) StdoutLine: {'line': b'copying /root/ros2_ws/build/latency_test/build/lib/latency_test/subscriber_node.py -> /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test\n'}
+[0.980434] (latency_test) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[0.981103] (latency_test) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test/subscriber_node.py to subscriber_node.cpython-310.pyc\n'}
+[0.981669] (latency_test) StdoutLine: {'line': b'running install_data\n'}
+[0.981788] (latency_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.983063] (latency_test) StdoutLine: {'line': b"removing '/root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.983351] (latency_test) StdoutLine: {'line': b'Copying ../../build/latency_test/latency_test.egg-info to /root/ros2_ws/install/latency_test/lib/python3.10/site-packages/latency_test-0.0.0-py3.10.egg-info\n'}
+[0.984240] (latency_test) StdoutLine: {'line': b'running install_scripts\n'}
+[0.999501] (latency_test) StdoutLine: {'line': b'Installing publisher_node script to /root/ros2_ws/install/latency_test/lib/latency_test\n'}
+[0.999648] (latency_test) StdoutLine: {'line': b'Installing subscriber_node script to /root/ros2_ws/install/latency_test/lib/latency_test\n'}
+[0.999862] (latency_test) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/latency_test/install.log'\n"}
+[1.000764] (-) TimerEvent: {}
+[1.012663] (latency_test) CommandEnded: {'returncode': 0}
+[1.017843] (latency_test) JobEnded: {'identifier': 'latency_test', 'rc': 0}
+[1.018381] (-) EventReactorShutdown: {}

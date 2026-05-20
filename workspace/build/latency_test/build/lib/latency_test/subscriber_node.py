@@ -1,45 +1,67 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
-from rclpy.qos import QoSProfile, ReliabilityPolicy
-import time
+from latency_interfaces.msg import LatencyMsg
+import csv
+import os
 
 
-class SubscriberNode(Node):
+class LatencySubscriber(Node):
     def __init__(self):
-        super().__init__('subscriber_node')
-        
-        qos = QoSProfile(
-            depth=10,
-            reliability=ReliabilityPolicy.BEST_EFFORT
-        )
+        super().__init__('latency_subscriber')
+
         self.subscription = self.create_subscription(
-            String,
+            LatencyMsg,
             'latency_topic',
-            self.callback,
-            qos
+            self.listener_callback,
+            10
         )
-    def callback(self, msg):
-        # Разбираем строку: номер сообщения и время отправки
-        message_id_str, sent_time_str = msg.data.split(',')
 
-        message_id = int(message_id_str)
-        sent_time = int(sent_time_str)
-        receive_time = time.time_ns()
+        self.last_message_id = None
+        self.csv_file = '/root/ros2_ws/latency_payload_results.csv'
 
-        latency_ms = (receive_time - sent_time) / 1_000_000
+        file_exists = os.path.isfile(self.csv_file)
 
-        # Логируем в CSV (append). Файл будет в корне workspace.
-        with open('/root/ros2_ws/latency_results.csv', 'a') as f:
-            f.write(f'{message_id},{sent_time},{receive_time},{latency_ms}\n')
+        self.file = open(self.csv_file, 'a', newline='')
+        self.writer = csv.writer(self.file)
 
-        # Выводим задержку в консоль для контроля
-        self.get_logger().info(f'ID: {message_id}, Latency: {latency_ms:.3f} ms')
+        if not file_exists:
+            self.writer.writerow([
+                'message_id',
+                'payload_size',
+                'latency_ms',
+                'lost_messages'
+            ])
+
+        self.get_logger().info('Subscriber started')
+
+    def listener_callback(self, msg):
+        now = self.get_clock().now()
+
+        sent_time = rclpy.time.Time.from_msg(msg.timestamp)
+        latency_ms = (now - sent_time).nanoseconds / 1_000_000
+
+        payload_size = len(msg.payload)
+
+        if self.last_message_id is None:
+            lost_messages = 0
+        else:
+            lost_messages = msg.message_id - self.last_message_id - 1
+
+        self.last_message_id = msg.message_id
+
+        self.writer.writerow([
+            msg.message_id,
+            payload_size,
+            latency_ms,
+            lost_messages
+        ])
+        self.file.flush()
 
 
 def main(args=None):
     rclpy.init(args=args)
-    node = SubscriberNode()
+    node = LatencySubscriber()
     rclpy.spin(node)
     node.destroy_node()
+    node.file.close()
     rclpy.shutdown()
